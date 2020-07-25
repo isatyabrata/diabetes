@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title> Diabetes Checker</title>
+</head>
+<body>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <div class="content">
+        <h1 style="text-align: center">Check You Diabetes Probability!!</h1>
+        <div class="form" style="text-align: center">
+            <form action="/predicted" method="POST" id="form1">
+                <input type="number" name="preg" id="preg" placeholder="Pregnancies">
+                <input  type="number" name="gluc" id="gluc" placeholder="Glucose", step="any">
+                <input type="number" name="bp" id="bp" placeholder="Blood Pressure", step="any">
+                <input  type="number" name="st" id="st" placeholder="SkinThickness", step="any">
+                <input type="number" name="ins" id="ins" placeholder="Insulin", step="any">
+                <input  type="number" name="bmi" id="bmi" placeholder="BMI", step="any">
+                <input  type="number" name="dpf" id="dpf" placeholder="DiabetesPedigreeFunction", step="any">
+                <input type="number" name="age" id="age" placeholder="Age">
+                <br><input type="submit" value="Predict"></br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
