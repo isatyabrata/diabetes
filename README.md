@@ -1,3 +1,3 @@
 # diabetes
 
-# Preddict If You Have Diabetes Or Not
+### Predict If You Have Diabetes Or Not
