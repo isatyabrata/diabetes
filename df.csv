@@ -1,0 +1,9 @@
+Node,CPU Ussage,CPU_CurrentVoltage,Level,NumberOfCores,NumberOfLogicalProcessors,Allocated Base Size,Current Base Usage,ProcessorType,Memory_FormFactor,osarchitecture,Processor Load %,Computer System WakeUpType,Processor UpgradeMethod,F5 Uptime Ping,Input folder Status,Backup Server Down/PICS,Forward Folder Available,Drive Space Utilized,RAM Usage %,Storage Servers,Site connectivity
+CR_102659,0.8,8,2,4,8,7200,634,1,5,64,9,5,6,Up,174,Up,92,29,36,Connectivity,Yes
+CR_189752,0.63,7,0,4,8,7400,478,0,11,64,17,5,6,Up,236,Up,103,142,34,Connectivity,Yes
+CR_184637,0.86,8,3,4,8,,,5,1,64,12,5,3,Up,174,Up,110,93,34,Connectivity,Yes
+CR_139071,0.78,,,4,8,6600,463,1,7,64,12,5,6,Up,249,Up,72,29,34,Connectivity,Yes
+CR_109335,0.71,8,2,4,8,6600,468,1,8,64,12,5,5,Up,174,Down,112,29,43,Zero Space,Yes
+CR_96263,0.77,8,10,4,8,9000,667,3,1,64,12,5,6,Up,303,Up,72,62,34,Zero Space,Yes
+CR_131400,0.63,8,7,4,8,6000,526,3,7,64,12,5,5,Up,174,Down,112,29,43,Zero Space,Yes
+CR_11981,0.78,8,7,4,8,2000,389,3,9,64,9,5,5,Up,316,Up,72,62,34,Connectivity,Yes
